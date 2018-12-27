@@ -3,3 +3,7 @@ AllCops:
 
 Rails:
   Enabled: true
+
+Rails/Output:
+  Include:
+    - "**/*.rb"
